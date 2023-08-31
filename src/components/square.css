@@ -1,0 +1,8 @@
+.each-square{
+    height: 12rem;
+    width: 12rem;
+    background-color: rgb(163, 109, 118);
+    font-size: 10rem;
+    font-weight: 600;
+    border: 4px solid black;
+}

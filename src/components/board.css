@@ -1,0 +1,46 @@
+.full-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 101, 78);
+    width: 100vw;
+    height: 100vh;
+}
+.heading-t{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+    width: 76vw;
+    font-size: 1rem;
+}
+.board-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.board{
+    width: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation{
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 4rem;
+    height:70vh;
+
+    
+}
+.trydiv{
+    background-color: pink;
+    height: 15rem;
+    width: 15rem;
+}
+.li-moves:hover{
+    cursor: pointer;
+}
